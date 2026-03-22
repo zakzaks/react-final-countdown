@@ -33,7 +33,6 @@ export default function TimeChallenge({ title, targetTime }) {
 			<ResultModel
 				ref={dialog}
 				targetTime={targetTime}
-				result="lost"
 				remainingTime={timeRemaining}
 				onReset={handleReset}
 			/>
